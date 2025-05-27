@@ -57,6 +57,21 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100dvh;
+}
+
+.main__informacion {
+  display: flex !important;
+  gap: 15px !important;
+}
+
+.main_width {
+  width: 60% !important;
+  margin-top: -20px;
+}
+
+.main_min_width {
+  width: 40% !important;
 }
 
 .main__division {
@@ -65,7 +80,11 @@ main {
   background-color: #0e1c4f;
   position: absolute;
   left: 50%;
-  top: 12%;
+  top: 20%;
+}
+
+.division_left {
+  left: 60% !important;
 }
 
 footer {
@@ -74,8 +93,19 @@ footer {
   align-items: center;
   padding: 0.5rem 2rem;
   background-color: var(--color-secundario);
+
 }
 
 .footer_copy {
   color: var(--color-enfasis);
+}
+
+.main__flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.img_bloque {
+  width: 15%;
 }

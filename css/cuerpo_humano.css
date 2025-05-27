@@ -4,11 +4,6 @@
   justify-content: center;
 }
 
-.cuerpo__img {
-  padding-top: 1rem;
-  width: 60%;
-}
-
 .main__informacion {
   width: 50%;
   padding: 2rem 4rem;
@@ -16,3 +11,4 @@
   flex-direction: column;
   gap: 5px;
 }
+
