@@ -137,6 +137,10 @@ footer {
   width: 12%;
 }
 
+.width_20 {
+  width: 20% !important;
+}
+
 .main__iframes {
   display: flex;
   align-items: center;
