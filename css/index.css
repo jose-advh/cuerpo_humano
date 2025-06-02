@@ -258,11 +258,14 @@ iframe {
     display: flex;
     flex-direction: column;
     height: 150dvh;
+    margin-bottom: 20px;
   }
 
   .main__informacion {
     width: 100% !important;
-    border: 1px solid black;
+    border-top: 1px solid var(--color-secundario);
+    text-align: center;
+    padding: 10px !important;
   }
 
   .header__titulo {
@@ -284,7 +287,8 @@ iframe {
   /* Page Evolution */
 
   .main__evolution {
-    height: 100dvh;
+    height: 100dvh !important;
+    margin-bottom: 0px !important;
   }
 
   .img__evolution {
@@ -306,5 +310,28 @@ iframe {
   .close__icon {
     top: 27%;
     right: 15%;
+  }
+
+  /* Video Page */
+
+  .reproductor {
+    width: 500px !important;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 150dvh;
+    margin-bottom: 300px;
+  }
+
+  .reproductor {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px !important;
+    height: 200px;
   }
 }
